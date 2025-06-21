@@ -1,7 +1,7 @@
 {
-  "name": "aoi.canvas",
-  "version": "3.0.10",
-  "description": "aoi.canvas - Create and edit images in aoi.js with ease.",
+  "name": "aoijs.canvas",
+  "version": "1.0.0",
+  "description": "aoijs.canvas - Create and edit images in aoi.js with ease.",
   "main": "dist/index.js",
   "keywords": [
     "canvas",
@@ -18,7 +18,7 @@
     "aoi.gif",
     "aoi.canvas"
   ],
-  "author": "lordex",
+  "author": "whirlstudios",
   "homepage": "https://aoi.js.org/extensions/aoijs/aoicanvas",
   "repository": {
     "type": "git",
@@ -31,13 +31,13 @@
     "publish": "tsc && echo Done compiling! && node api-gen.js && echo API file generated/updated. && npm publish"
   },
   "dependencies": {
-    "@napi-rs/canvas": "0.1.49",
+    "@napi-rs/canvas": "0.1.71",
     "gif-encoder-2": "^1.0.5",
-    "gif-frames": "^1.0.1"
+    "gif-frames": "^1.0.3"
   },
   "devDependencies": {
-    "aoi.js": "^6.7.1",
-    "discord.js": "^14.14.1",
-    "typescript": "^5.4.5"
+    "aoi.js": "^6.10.3",
+    "discord.js": "^14.20.0",
+    "typescript": "^5.8.3"
   }
 }
