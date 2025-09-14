@@ -2,7 +2,7 @@
   "name": "aoi.canvas",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.ts",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,10 +18,12 @@
     "url": "https://github.com/Souza-ts/aoi.canvas/issues"
   },
   "homepage": "https://github.com/Souza-ts/aoi.canvas#readme",
-  "dependencies": {
-    "@napi-rs/canvas": "^0.1.76",
-    "aoi.js": "^6.10.3",
-    "discord.js": "^14.21.0",
+  "devDependencies": {
+    "aoi.js": "^6.11.1",
+    "discord.js": "^14.22.1",
     "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.80"
   }
 }
